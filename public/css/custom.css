@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  background-color: #E7E1FF;
+  /*Allows you to drag the app from the body*/
+  -webkit-app-region: drag;
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Pacifico;
+  font-size: 60px;
+}
+.bingo_box{
+  overflow:hidden;
+  background-color: #7E72B0;
+  min-height: 98px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #130B3B;
+  width: 20%;
+  word-wrap: break-word;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  font-size: 2vw;
+  font-weight: 900;
+}
+.bingo_box:hover{
+  background-color: #E7E1FF;
+}
+img{
+  max-height: 90px;
+}
+.selected{
+  background-color: #ffd700;
+}
+
+.star{
+  background-color: #ffd700;
+}

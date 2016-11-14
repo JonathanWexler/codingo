@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Codingo</title>
+  <script>
+    // pass main module to the window (DOM), mainly so we can import JQuery
+    if (typeof module === 'object') {
+      window.module = module; 
+      module = undefined;
+    }  
+    // Import IPC renderer module to communicate with main process
+    const ipc = require('electron').ipcRenderer;
+  </script>
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="public/js/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="public/css/custom.css">
+  <script src="public/js/custom.js"></script>
+
+</head>
+<body>
+
+  <h1>Codingo</h1>
+  <div class="container">
+  </div>
+
+</body>
+</html>
